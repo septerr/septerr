@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="author" content="Swapna Gupta" />
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" />
+
+    <!-- Twitter Bootstrap CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Typekit -->
+    <script src="/assets/js/jquery/jquery-1.7.1.js"></script>
+    <script src="/assets/js/bootstrap/bootstrap.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+<body>
+
+<div id="page">
+
+    <!-- Twitter Bootstrap navbar -->
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="http://swapnagupta.com/">Swapna Gupta</a>
+                <div class="nav-collapse">
+                    <ul class="nav pull-right">
+                        <li>
+                            <a href="https://twitter.com/septerr">
+                                @septerr
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://feeds.feedburner.com/swapnagupta">
+                                rss
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content area -->
+
+    <div class="container">
+        <div class="content">
+            <header class="page-header">
+                <h1>{{ site.title }}</h1>
+            </header>
+            <div class="row">
+                <div id="content" class="span12">
+                    {{ content }}
+                </div>
+
+            </div>
+        </div>
+        <hr />
+    </div>
+
+</div>
+
+<!-- End Main content area -->
+
+</body>
+</html>
