@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fba7b627-7870-4795-9a70-17c780388af7" name="Default" comment="Resolved conflicts in Readme, added CNAME file in order to use custom domain&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNAME" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="fba7b627-7870-4795-9a70-17c780388af7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/disqus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/myblog.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
     </list>
-    <list id="a90bebb2-180f-4803-a608-232542ba9afe" name="ignored" comment="" />
     <ignored path="myblog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +39,16 @@
       <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="41" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-10.84">
+            <state line="32" column="22" selection-start="1086" selection-end="1086" vertical-scroll-proportion="-20.48">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.64">
               <folding />
             </state>
           </provider>
@@ -59,7 +75,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="178" selection-end="178" vertical-scroll-proportion="0.54545456">
+            <state line="16" column="9" selection-start="188" selection-end="188" vertical-scroll-proportion="0.58181816">
               <folding />
             </state>
           </provider>
@@ -83,31 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/bootstrap/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="102" selection-start="2870" selection-end="2870" vertical-scroll-proportion="-18.653847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="48" selection-start="246" selection-end="246" vertical-scroll-proportion="-5.12">
-              <folding>
-                <marker date="1355814017000" expanded="true" signature="83:100" placeholder="..." />
-              </folding>
+            <state line="8" column="4" selection-start="179" selection-end="179" vertical-scroll-proportion="-5.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="disqus.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-2.56">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,7 +120,7 @@
       <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="114" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+            <state line="14" column="31" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,18 +139,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/css/screen.css" />
         <option value="$PROJECT_DIR$/css/syntax.css" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/2012_12_17_Hello_World.html" />
         <option value="$PROJECT_DIR$/_posts/2012-12-17-Hello-World.md" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_layouts/page.html" />
+        <option value="$PROJECT_DIR$/_includes/disqus.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -199,6 +206,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,11 +417,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a90bebb2-180f-4803-a608-232542ba9afe" name="ignored" comment="" />
       <created>1355778754997</created>
       <updated>1355778754997</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Resolved conflicts in Readme, added CNAME file in order to use custom domain&#10;">
+      <created>1355848120395</created>
+      <updated>1355848120395</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added .idea to .gitignore">
+      <created>1355848163968</created>
+      <updated>1355848163968</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed .idea from .gitignore, having problems committing, will figure out later.">
+      <created>1355849529440</created>
+      <updated>1355849529440</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -418,7 +496,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolved conflicts in Readme, added CNAME file in order to use custom domain&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed .idea from .gitignore, having problems committing, will figure out later." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -435,25 +513,14 @@
     <MESSAGE value="Merge branch 'master' of github.com:septerr/septerr&#10;&#10;Conflicts:&#10;&#9;README.md&#10;" />
     <MESSAGE value="Added .idea to .ignore" />
     <MESSAGE value="Resolved conflicts in Readme, added CNAME file in order to use custom domain&#10;" />
+    <MESSAGE value="Added .idea to .gitignore" />
+    <MESSAGE value="Cleanup. Removed unnecessary code, comments. Added includes to make things simpler." />
+    <MESSAGE value="removed .idea from .gitignore, having problems committing, will figure out later." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="170" selection-end="170" vertical-scroll-proportion="-5.76">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/syntax.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="43" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0">
@@ -496,22 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="114" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="246" selection-end="246" vertical-scroll-proportion="-5.12">
-          <folding>
-            <marker date="1355814017000" expanded="true" signature="83:100" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="114" selection-start="332" selection-end="332" vertical-scroll-proportion="-7.04">
@@ -522,13 +573,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/2012-12-17-Hello-World.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="18" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="41" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-10.84">
           <folding />
         </state>
       </provider>
@@ -547,9 +591,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="22" selection-start="1086" selection-end="1086" vertical-scroll-proportion="-20.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-2.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="179" selection-end="179" vertical-scroll-proportion="-5.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="178" selection-end="178" vertical-scroll-proportion="0.54545456">
+        <state line="16" column="9" selection-start="188" selection-end="188" vertical-scroll-proportion="0.58181816">
           <folding />
         </state>
       </provider>
